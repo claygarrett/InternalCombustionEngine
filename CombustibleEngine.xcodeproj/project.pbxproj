@@ -15,6 +15,23 @@
 		E927477722AC28C000F177AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E927477522AC28C000F177AE /* LaunchScreen.storyboard */; };
 		E927478222AC28C000F177AE /* CombustibleEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E927478122AC28C000F177AE /* CombustibleEngineTests.swift */; };
 		E927478D22AC28C000F177AE /* CombustibleEngineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E927478C22AC28C000F177AE /* CombustibleEngineUITests.swift */; };
+		E96B538022AC299000E9770E /* Ownable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B536822AC299000E9770E /* Ownable.swift */; };
+		E96B538122AC299000E9770E /* Debuggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B536A22AC299000E9770E /* Debuggable.swift */; };
+		E96B538222AC299000E9770E /* Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B536B22AC299000E9770E /* Assembler.swift */; };
+		E96B538322AC299000E9770E /* Translatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B536C22AC299000E9770E /* Translatable.swift */; };
+		E96B538422AC299000E9770E /* Cam.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B537022AC299000E9770E /* Cam.swift */; };
+		E96B538522AC299000E9770E /* Camshaft.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B537122AC299000E9770E /* Camshaft.swift */; };
+		E96B538622AC299000E9770E /* StarterMotor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B537322AC299000E9770E /* StarterMotor.swift */; };
+		E96B538722AC299000E9770E /* CrankSprocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B537422AC299000E9770E /* CrankSprocket.swift */; };
+		E96B538822AC299000E9770E /* RodBearing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B537622AC299000E9770E /* RodBearing.swift */; };
+		E96B538922AC299000E9770E /* Crankshaft.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B537722AC299000E9770E /* Crankshaft.swift */; };
+		E96B538A22AC299000E9770E /* Flywheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B537822AC299000E9770E /* Flywheel.swift */; };
+		E96B538B22AC299000E9770E /* TimingBelt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B537922AC299000E9770E /* TimingBelt.swift */; };
+		E96B538C22AC299000E9770E /* PistonRod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B537B22AC299000E9770E /* PistonRod.swift */; };
+		E96B538D22AC299000E9770E /* Valve.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B537C22AC299000E9770E /* Valve.swift */; };
+		E96B538E22AC299000E9770E /* Piston.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B537D22AC299000E9770E /* Piston.swift */; };
+		E96B538F22AC299000E9770E /* FuelInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B537E22AC299000E9770E /* FuelInjector.swift */; };
+		E96B539022AC299000E9770E /* Rotatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B537F22AC299000E9770E /* Rotatable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E907F25322AD5F3F00FFD0A4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E927476722AC28BE00F177AE /* CombustibleEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombustibleEngine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E927476A22AC28BE00F177AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E927476C22AC28BE00F177AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +67,23 @@
 		E927478822AC28C000F177AE /* CombustibleEngineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CombustibleEngineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E927478C22AC28C000F177AE /* CombustibleEngineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombustibleEngineUITests.swift; sourceTree = "<group>"; };
 		E927478E22AC28C000F177AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E96B536822AC299000E9770E /* Ownable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ownable.swift; sourceTree = "<group>"; };
+		E96B536A22AC299000E9770E /* Debuggable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debuggable.swift; sourceTree = "<group>"; };
+		E96B536B22AC299000E9770E /* Assembler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assembler.swift; sourceTree = "<group>"; };
+		E96B536C22AC299000E9770E /* Translatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Translatable.swift; sourceTree = "<group>"; };
+		E96B537022AC299000E9770E /* Cam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cam.swift; sourceTree = "<group>"; };
+		E96B537122AC299000E9770E /* Camshaft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camshaft.swift; sourceTree = "<group>"; };
+		E96B537322AC299000E9770E /* StarterMotor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarterMotor.swift; sourceTree = "<group>"; };
+		E96B537422AC299000E9770E /* CrankSprocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrankSprocket.swift; sourceTree = "<group>"; };
+		E96B537622AC299000E9770E /* RodBearing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RodBearing.swift; sourceTree = "<group>"; };
+		E96B537722AC299000E9770E /* Crankshaft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crankshaft.swift; sourceTree = "<group>"; };
+		E96B537822AC299000E9770E /* Flywheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flywheel.swift; sourceTree = "<group>"; };
+		E96B537922AC299000E9770E /* TimingBelt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimingBelt.swift; sourceTree = "<group>"; };
+		E96B537B22AC299000E9770E /* PistonRod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PistonRod.swift; sourceTree = "<group>"; };
+		E96B537C22AC299000E9770E /* Valve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Valve.swift; sourceTree = "<group>"; };
+		E96B537D22AC299000E9770E /* Piston.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Piston.swift; sourceTree = "<group>"; };
+		E96B537E22AC299000E9770E /* FuelInjector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuelInjector.swift; sourceTree = "<group>"; };
+		E96B537F22AC299000E9770E /* Rotatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rotatable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +114,7 @@
 		E927475E22AC28BE00F177AE = {
 			isa = PBXGroup;
 			children = (
+				E907F25322AD5F3F00FFD0A4 /* README.md */,
 				E927476922AC28BE00F177AE /* CombustibleEngine */,
 				E927478022AC28C000F177AE /* CombustibleEngineTests */,
 				E927478B22AC28C000F177AE /* CombustibleEngineUITests */,
@@ -99,6 +135,7 @@
 		E927476922AC28BE00F177AE /* CombustibleEngine */ = {
 			isa = PBXGroup;
 			children = (
+				E96B536722AC299000E9770E /* Source */,
 				E927476A22AC28BE00F177AE /* AppDelegate.swift */,
 				E927476C22AC28BE00F177AE /* SceneDelegate.swift */,
 				E927476E22AC28BE00F177AE /* ContentView.swift */,
@@ -134,6 +171,86 @@
 				E927478E22AC28C000F177AE /* Info.plist */,
 			);
 			path = CombustibleEngineUITests;
+			sourceTree = "<group>";
+		};
+		E96B536722AC299000E9770E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E96B536822AC299000E9770E /* Ownable.swift */,
+				E96B536922AC299000E9770E /* Assembly */,
+				E96B536C22AC299000E9770E /* Translatable.swift */,
+				E96B536D22AC299000E9770E /* Parts */,
+				E96B537F22AC299000E9770E /* Rotatable.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E96B536922AC299000E9770E /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				E96B536A22AC299000E9770E /* Debuggable.swift */,
+				E96B536B22AC299000E9770E /* Assembler.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		E96B536D22AC299000E9770E /* Parts */ = {
+			isa = PBXGroup;
+			children = (
+				E96B536E22AC299000E9770E /* Main */,
+			);
+			path = Parts;
+			sourceTree = "<group>";
+		};
+		E96B536E22AC299000E9770E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E96B536F22AC299000E9770E /* Camshafts */,
+				E96B537222AC299000E9770E /* Starter */,
+				E96B537522AC299000E9770E /* Crankshaft */,
+				E96B537A22AC299000E9770E /* Combustion Chamber */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E96B536F22AC299000E9770E /* Camshafts */ = {
+			isa = PBXGroup;
+			children = (
+				E96B537022AC299000E9770E /* Cam.swift */,
+				E96B537122AC299000E9770E /* Camshaft.swift */,
+			);
+			path = Camshafts;
+			sourceTree = "<group>";
+		};
+		E96B537222AC299000E9770E /* Starter */ = {
+			isa = PBXGroup;
+			children = (
+				E96B537322AC299000E9770E /* StarterMotor.swift */,
+				E96B537422AC299000E9770E /* CrankSprocket.swift */,
+			);
+			path = Starter;
+			sourceTree = "<group>";
+		};
+		E96B537522AC299000E9770E /* Crankshaft */ = {
+			isa = PBXGroup;
+			children = (
+				E96B537622AC299000E9770E /* RodBearing.swift */,
+				E96B537722AC299000E9770E /* Crankshaft.swift */,
+				E96B537822AC299000E9770E /* Flywheel.swift */,
+				E96B537922AC299000E9770E /* TimingBelt.swift */,
+			);
+			path = Crankshaft;
+			sourceTree = "<group>";
+		};
+		E96B537A22AC299000E9770E /* Combustion Chamber */ = {
+			isa = PBXGroup;
+			children = (
+				E96B537B22AC299000E9770E /* PistonRod.swift */,
+				E96B537C22AC299000E9770E /* Valve.swift */,
+				E96B537D22AC299000E9770E /* Piston.swift */,
+				E96B537E22AC299000E9770E /* FuelInjector.swift */,
+			);
+			path = "Combustion Chamber";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,8 +384,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E96B538122AC299000E9770E /* Debuggable.swift in Sources */,
+				E96B538A22AC299000E9770E /* Flywheel.swift in Sources */,
+				E96B538022AC299000E9770E /* Ownable.swift in Sources */,
 				E927476B22AC28BE00F177AE /* AppDelegate.swift in Sources */,
+				E96B538B22AC299000E9770E /* TimingBelt.swift in Sources */,
+				E96B538322AC299000E9770E /* Translatable.swift in Sources */,
+				E96B538F22AC299000E9770E /* FuelInjector.swift in Sources */,
+				E96B538922AC299000E9770E /* Crankshaft.swift in Sources */,
+				E96B538522AC299000E9770E /* Camshaft.swift in Sources */,
+				E96B538622AC299000E9770E /* StarterMotor.swift in Sources */,
 				E927476D22AC28BE00F177AE /* SceneDelegate.swift in Sources */,
+				E96B538722AC299000E9770E /* CrankSprocket.swift in Sources */,
+				E96B538822AC299000E9770E /* RodBearing.swift in Sources */,
+				E96B538E22AC299000E9770E /* Piston.swift in Sources */,
+				E96B538C22AC299000E9770E /* PistonRod.swift in Sources */,
+				E96B538422AC299000E9770E /* Cam.swift in Sources */,
+				E96B539022AC299000E9770E /* Rotatable.swift in Sources */,
+				E96B538D22AC299000E9770E /* Valve.swift in Sources */,
+				E96B538222AC299000E9770E /* Assembler.swift in Sources */,
 				E927476F22AC28BE00F177AE /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
